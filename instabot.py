@@ -6,8 +6,8 @@ class InstagramBot:
 
     def __init__(self):
         self.images = []
-        self.username = '_JuanKantor_'
-        self.password = '12i12144'
+        self.username = 'username'  # here you have to pass usernmae and password for login
+        self.password = 'pass'
         self.base_url = 'https://www.instagram.com'
         self.driver = webdriver.Chrome('chromedriver.exe')
         self.posts_urls = []
