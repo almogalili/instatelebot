@@ -34,7 +34,7 @@ class InstagramBot:
     def nav_user(self, user):
         self.driver.get('{}/{}'.format(self.base_url, user))
 
-    # we need to scroll down and to save the images urls into an array
+    # we need to scroll down and to save the posts urls into an array, i did it in this way for maybe in the future to dowload also videos.
     def scroll_down(self):
 
         posts_xpath = "//*[@class='v1Nh3 kIKUG  _bz0w']//a"
