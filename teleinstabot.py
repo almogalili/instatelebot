@@ -53,7 +53,7 @@ def download_images(update, context):
 
 
 def main():
-    updater = Updater('985887921:AAGdkxD_ne5MpQ521NZY8BknqKcIQvwrJ6A', use_context=True)
+    updater = Updater('Your token', use_context=True)
     dp = updater.dispatcher
     dp.add_handler(CommandHandler('start', start))
     dp.add_handler(CommandHandler('downloadimages', download_images))
